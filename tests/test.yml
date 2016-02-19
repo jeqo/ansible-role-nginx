@@ -1,0 +1,6 @@
+---
+# test units
+- name: test install mariadb on ubuntu 14
+  hosts: test01
+  roles:
+    - role: nginx

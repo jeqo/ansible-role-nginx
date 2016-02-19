@@ -1,0 +1,8 @@
+---
+# tasks file for nginx
+- include: prepare.yml
+  become: yes
+
+- include: install.yml
+  become: yes
+  

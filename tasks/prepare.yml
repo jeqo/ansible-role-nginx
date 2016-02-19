@@ -1,0 +1,8 @@
+---
+#
+- apt_key: keyserver=pgp.mit.edu id=573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
+
+- apt_repository:
+    repo: 'deb http://nginx.org/packages/mainline/ubuntu trusty nginx'
+    # filename: nginx (2.1)
+    state: present
